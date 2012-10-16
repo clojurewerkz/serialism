@@ -3,7 +3,14 @@
 Serialism is A tiny Clojure library that serializes and deserializes values
 into popular formats based on provided content type.
 
-Supported
+Supported formats:
+
+ * JSON
+ * SMILE (binary JSON)
+ * Text
+ * Clojure reader forms
+
+It is possible to extend the libray to any other format thanks to [Clojure multimethods](http://clojure-doc.org/articles/language/polymorphism.html).
 
 Serialism is heavily influenced by how automatic value serialization is implemented
 in [Welle, a Clojure Riak client](http://clojureriak.info).
