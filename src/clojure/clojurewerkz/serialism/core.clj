@@ -161,6 +161,9 @@
 (defmethod deserialize octet-stream-content-type
   [value _]
   value)
+(defmethod deserialize :bytes
+  [value _]
+  value)
 (defmethod deserialize text-content-type
   [value _]
   (String. ^bytes value))
@@ -173,6 +176,10 @@
 
 ;; JSON
 (defmethod deserialize json-content-type
+  [value _]
+  (json/parse-string (to-string value) true))
+
+(defmethod deserialize :json
   [value _]
   (json/parse-string (to-string value) true))
 
