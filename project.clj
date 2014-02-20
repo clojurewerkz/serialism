@@ -2,7 +2,7 @@
   :description "A tiny Clojure library that serializes and deserializes values into popular formats based on provided content type"
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [clojurewerkz/support "0.15.0"]
-                 [cheshire             "5.0.2"]]
+                 [cheshire             "5.3.1"]]
   :profiles {:1.4 {:dependencies [[org.clojure/clojure "1.4.0"]]}
              :1.6 {:dependencies [[org.clojure/clojure "1.6.0-beta1"]]}
              :master {:dependencies [[org.clojure/clojure "1.6.0-master-SNAPSHOT"]]}
