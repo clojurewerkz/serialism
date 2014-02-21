@@ -1,6 +1,7 @@
 (ns clojurewerkz.serialism.core-test
   (:require [clojurewerkz.serialism.core :as s]
-            [clojure.test :refer :all]))
+            [clojure.test :refer :all]
+            [cheshire.core :as json]))
 
 
 (deftest test-serialization
@@ -22,13 +23,13 @@
 
   (testing "Clojure to JSON"
     (let [value {:language "Clojure" :library "serialism" :authors ["Michael"]}]
-      (is (= "{\"language\":\"Clojure\",\"library\":\"serialism\",\"authors\":[\"Michael\"]}"
-             (s/serialize value s/json-content-type)))))
+      (is (= value
+             (json/parse-string (s/serialize value s/json-content-type) true)))))
 
   (testing "Clojure to reader forms"
     (let [value {:language "Clojure" :library "serialism" :authors ["Michael"]}]
-      (is (= "#=(clojure.lang.PersistentArrayMap/create {:language \"Clojure\", :library \"serialism\", :authors [\"Michael\"]})"
-             (s/serialize value s/clojure-content-type)))))
+      (is (= value
+             (read-string (s/serialize value s/clojure-content-type))))))
 
   (testing "Clojure to SMILE"
     (let [value {:language "Clojure" :library "serialism" :authors ["Michael"]}]
