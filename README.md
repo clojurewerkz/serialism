@@ -22,16 +22,10 @@ Serialism tries to provide an extensible serialization library that supports
 multiple formats behind a single API.
 
 
-## Community
-
-[Serialism has a mailing list](https://groups.google.com/forum/#!forum/clojure-serialism). Feel free to join it and ask any questions you may have.
-
-To subscribe for announcements of releases, important changes and so on, please follow [@ClojureWerkz](https://twitter.com/#!/clojurewerkz) on Twitter.
-
-
 ## Project Maturity
 
-Serialism is a young project but ideas behind it have proven itself in [Welle](http://clojureriak.info).
+Serialism is not a young project and the ideas behind it have proven
+itself in [Welle](http://clojureriak.info).
 
 
 
@@ -51,7 +45,7 @@ definition to your `pom.xml`:
 
 With Leiningen:
 
-    [clojurewerkz/serialism "1.0.1"]
+    [clojurewerkz/serialism "1.1.0"]
 
 
 With Maven:
@@ -59,7 +53,7 @@ With Maven:
     <dependency>
       <groupId>clojurewerkz</groupId>
       <artifactId>serialism</artifactId>
-      <version>1.0.1</version>
+      <version>1.1.0</version>
     </dependency>
 
 
@@ -135,6 +129,13 @@ formats (e.g. MessagePack, Kryo or custom formats built with Gloss).
 ## Supported Clojure versions
 
 Serialism requires Clojure 1.4+.
+
+
+## Community
+
+[Serialism has a mailing list](https://groups.google.com/forum/#!forum/clojure-serialism). Feel free to join it and ask any questions you may have.
+
+To subscribe for announcements of releases, important changes and so on, please follow [@ClojureWerkz](https://twitter.com/#!/clojurewerkz) on Twitter.
 
 
 ## Continuous Integration Status
