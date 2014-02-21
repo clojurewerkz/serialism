@@ -134,7 +134,7 @@ formats (e.g. MessagePack, Kryo or custom formats built with Gloss).
 
 ## Supported Clojure versions
 
-Serialism is built from the ground up for Clojure 1.4.0 and up.
+Serialism requires Clojure 1.4+.
 
 
 ## Continuous Integration Status
