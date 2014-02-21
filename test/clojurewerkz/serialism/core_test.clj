@@ -1,6 +1,6 @@
 (ns clojurewerkz.serialism.core-test
-  (:require [clojurewerkz.serialism.core :as s])
-  (:use clojure.test))
+  (:require [clojurewerkz.serialism.core :as s]
+            [clojure.test :refer :all]))
 
 
 (deftest test-serialization
