@@ -1,7 +1,7 @@
 (defproject clojurewerkz/serialism "1.3.0-SNAPSHOT"
   :description "A tiny Clojure library that serializes and deserializes values into popular formats based on provided content type"
   :dependencies [[org.clojure/clojure "1.6.0"]
-                 [clojurewerkz/support "0.20.0"]
+                 [clojurewerkz/support "1.0.0"]
                  [cheshire             "5.3.1"]]
   :profiles {:1.4 {:dependencies [[org.clojure/clojure "1.4.0"]]}
              :1.5 {:dependencies [[org.clojure/clojure "1.5.1"]]}
