@@ -128,7 +128,7 @@ formats (e.g. MessagePack, Kryo or custom formats built with Gloss).
 
 ## Supported Clojure versions
 
-Serialism requires Clojure 1.4+.
+Serialism requires Clojure 1.6+.
 
 
 ## Community
