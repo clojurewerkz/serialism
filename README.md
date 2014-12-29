@@ -1,6 +1,6 @@
-# Serialism, a Multiformat Clojure Serialization Library
+# Serialism, a Common Clojure Serialization API
 
-Serialism is A tiny Clojure library that serializes and deserializes values
+Serialism is a tiny Clojure library that serializes and deserializes values
 into popular formats based on provided content type.
 
 Supported formats:
