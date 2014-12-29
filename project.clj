@@ -1,4 +1,4 @@
-(defproject clojurewerkz/serialism "1.3.0"
+(defproject clojurewerkz/serialism "1.4.0-SNAPSHOT"
   :description "A tiny Clojure library that serializes and deserializes values into popular formats based on provided content type"
   :dependencies [[org.clojure/clojure  "1.6.0"]
                  [clojurewerkz/support "1.1.0"]
