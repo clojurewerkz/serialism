@@ -1,5 +1,9 @@
 ## Changes Between 1.2.0 and 1.3.0
 
+### Double License
+
+The library is now double-licensed under Apache Public License 2.0 and Eclipse Public License 1.0.
+
 ### Cheshire 5.4
 
 The library now depends on [Cheshire](https://github.com/dakrone/cheshire) 5.4.
