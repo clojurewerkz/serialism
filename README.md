@@ -45,7 +45,7 @@ definition to your `pom.xml`:
 
 With Leiningen:
 
-    [clojurewerkz/serialism "1.2.0"]
+    [clojurewerkz/serialism "1.3.0"]
 
 
 With Maven:
@@ -53,7 +53,7 @@ With Maven:
     <dependency>
       <groupId>clojurewerkz</groupId>
       <artifactId>serialism</artifactId>
-      <version>1.2.0</version>
+      <version>1.3.0</version>
     </dependency>
 
 
